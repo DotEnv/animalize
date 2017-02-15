@@ -1,0 +1,26 @@
+{
+	"name": "dotenv/animalize",
+	"description": "A simple php library to generate fake animals.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": ["php", "library", "dotenv", "animal", "animalize", "faker" , "tiago-perrelli"],
+	"authors": [
+		{
+			"name": "Tiago Perrelli",
+		 	"email": "tiagoyg@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"fzaninotto/faker": "^1.6"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Animalize\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
