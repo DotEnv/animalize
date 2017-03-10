@@ -44,10 +44,6 @@ class Dog extends Animal
 	*/	
 	public function defineBreed()
 	{
-		require_once __DIR__ . '/config.php';
-
-		dd('ok');
-
 		$config = file_get_contents(__DIR__ .'/config.php');
 
 		dd($f);
